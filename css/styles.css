@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url('../res/back.gif') center/cover no-repeat fixed;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+.title-text {
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mem-text {
+    color: #fff;
+    font-family: Source Code Pro, sans-serif;
+    font-size: 24px;
+}
+
+.folder-container {
+    max-width: 650px;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.4);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.folder-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.folder-item:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.important-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Source Code Pro', sans-serif;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.important-item:hover {
+    background: rgba(255, 0, 0, 0.25);
+}
+
+.folder-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    color: #fff;
+}
+
+.folder-item span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+@media (max-width: 768px) {
+    .title-container {
+        gap: 20px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .title-text {
+        font-size: 3rem;
+    }
+
+    .folder-container {
+        padding: 25px;
+        max-width: 500px;
+    }
+
+    .folder-item span {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .title-text {
+        font-size: 2.5rem;
+    }
+
+    .folder-container {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .folder-item {
+        padding: 15px;
+    }
+
+    .folder-icon {
+        width: 35px;
+        height: 35px;
+    }
+      }
