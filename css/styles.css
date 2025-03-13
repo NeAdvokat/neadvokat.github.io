@@ -43,7 +43,7 @@ body::after {
 
 .title-text {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -134,7 +134,7 @@ body::after {
     }
     
     .title-text {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
     .folder-container {
@@ -163,7 +163,7 @@ body::after {
     }
 
     .title-text {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .folder-container {
