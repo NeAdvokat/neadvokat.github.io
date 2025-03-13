@@ -73,7 +73,6 @@ body::after {
     background: rgba(17, 17, 17, 0.4);
     border-radius: 20px;
     padding: 30px;
-    margin: 5px;
     backdrop-filter: blur(5px);
     border: 2px solid rgba(255, 255, 255, 0.4);
 }
