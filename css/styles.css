@@ -40,13 +40,6 @@ body::after {
     margin-bottom: 40px;
 }
 
-.logo {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
-    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
-}
-
 .title-text {
     color: #fff;
     font-size: 4rem;
