@@ -98,8 +98,9 @@ body::after {
     align-items: center;
     padding: 20px;
     margin: 15px 0;
+    font-style: bold;
     text-decoration: none;
-    color: #fff;
+    color: rgba(255, 0, 0, 0.8);
     font-family: 'Source Code Pro', sans-serif;
     border-radius: 12px;
     transition: all 0.3s ease;
