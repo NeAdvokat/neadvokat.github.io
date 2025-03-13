@@ -35,9 +35,10 @@ body::after {
 }
 
 .title-container {
+    display: absolute;
     align-items: center;
     gap: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 .title-text {
@@ -57,7 +58,7 @@ body::after {
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Source Code Pro', sans-serif;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .mem-text {
@@ -125,18 +126,13 @@ body::after {
 
 @media (max-width: 768px) {
     .description-text {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .title-container {
         gap: 20px;
     }
-
-    .logo {
-        width: 70px;
-        height: 70px;
-    }
-
+    
     .title-text {
         font-size: 3rem;
     }
@@ -163,7 +159,7 @@ body::after {
     }
 
     .description-text {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .title-text {
