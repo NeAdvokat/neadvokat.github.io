@@ -99,7 +99,7 @@ body::after {
     padding: 20px;
     margin: 15px 0;
     text-decoration: none;
-    color: red;
+    color: #fff;
     font-family: 'Source Code Pro', sans-serif;
     border-radius: 12px;
     transition: all 0.3s ease;
