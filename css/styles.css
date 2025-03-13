@@ -56,14 +56,14 @@ body::after {
 
 .catalog-text {
     color: rgba(255, 255, 255, 0.6);
-    font-family: 'Source Code Pro' sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
     text-align: center;
     font-size: 15px;
 }
 
 .mem-text {
     color: #fff;
-    font-family: Source Code Pro, sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
     font-size: 24px;
 }
 
