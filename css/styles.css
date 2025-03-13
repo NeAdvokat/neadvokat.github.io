@@ -61,6 +61,13 @@ body::after {
     font-size: 15px;
 }
 
+.description-text {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Source Code Pro', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
 .mem-text {
     color: #fff;
     font-family: 'Source Code Pro', sans-serif;
@@ -125,6 +132,10 @@ body::after {
 }
 
 @media (max-width: 768px) {
+    .description-text {
+        font-size: 16px;
+    }
+
     .title-container {
         gap: 20px;
     }
@@ -157,6 +168,10 @@ body::after {
     .logo {
         width: 60px;
         height: 60px;
+    }
+
+    .description-text {
+        font-size: 14px;
     }
 
     .title-text {
